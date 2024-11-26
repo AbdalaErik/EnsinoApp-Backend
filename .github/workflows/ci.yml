@@ -21,3 +21,5 @@ jobs:
         uses: php-actions/phpunit@v4
         env:
           APP_KEY: ${{secrets.APP_KEY}}
+        with:
+          configuration: phpunit.xml
