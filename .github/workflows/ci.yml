@@ -19,3 +19,5 @@ jobs:
 
       - name: Run unit tests
         uses: php-actions/phpunit@v4
+        env:
+          APP_KEY: ${{secrets.API_KEY}}
