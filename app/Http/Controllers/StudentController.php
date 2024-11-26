@@ -37,7 +37,7 @@ class StudentController extends Controller
      */
     public function show(string $id)
     {
-        return $student = $this->student->find($id);
+        return $this->student->find($id);
     }
 
     /**
