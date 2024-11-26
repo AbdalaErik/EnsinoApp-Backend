@@ -41,6 +41,7 @@ jobs:
           DB_PORT: 3306
           DB_USER: root
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_COLLATION: ${{ secrets.DB_COLLATION }}
         with:
           configuration: phpunit.xml
           php_extensions: "mysqli pdo_mysql"
