@@ -8,6 +8,8 @@ use Tests\TestCase;
 
 class StudentTest extends TestCase
 {
+    use RefreshDatabase;
+
     /**
      * A basic feature test example.
      */
