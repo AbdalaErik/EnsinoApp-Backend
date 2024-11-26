@@ -23,4 +23,4 @@ jobs:
           APP_KEY: ${{secrets.APP_KEY}}
         with:
           configuration: phpunit.xml
-          php_extensions: "mysql"
+          php_extensions: "mysqli"
